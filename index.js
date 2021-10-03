@@ -1,4 +1,4 @@
- // ***************** hero text animation JS***************** //
+//  ************Animation on ContactPage**********************
  var textWrapper = document.querySelector('.ml13');
  textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
@@ -184,3 +184,5 @@
     }
   });  
 })()
+
+   
