@@ -3,7 +3,6 @@ body,html{
     padding:0;
    margin: 0;
    font-family: "Open Sans", sans-serif;
-   /* color: #444444; */
 }
 *{
    margin:0;
@@ -483,11 +482,16 @@ a {
     justify-content: space-evenly;
     border-radius: 50%;
     padding: 5px;
-    color: #444444;
+    color: #444;
+   
  }
  .social-btn-links:hover{
- transform: translateY(-3px);
- /* box-shadow: 2px 4px 8px 0px rgba(46,61,73,0.2); */
+ transform: translateY(-1px);
+ color:#37b866;
+ transform: scale(1.5);
+ -ms-transform: scale(1.5);
+ -webkit-transform: scale(1.2);
+ color: #37b866;
  }
 .box > .icon { 
   text-align: center;
@@ -542,9 +546,10 @@ a {
   margin: 20px;
   }
 .box > .icon:hover > .info > h3.title, .box > .icon:hover > .info > p, .box > .icon:hover > .info > .more > a {
-   color:teal;
-   font-weight: 500; 
+   color:#666;
+   font-weight: 600; 
   }
+
 .box > .icon > .info > .more a { 
   font-family: "Robot",sans-serif !important; 
   font-size: 12px; 
@@ -558,9 +563,6 @@ a {
    padding: 6px 8px; 
    background-color: #63B76C; 
   }
-.box .space { 
-  height: 70px; 
-}
  /* ******************************************************************************** */
    /* *********************************** MAP/MAP HEADLINES CSS******************************************** */
 /* ************************************************************************** */
@@ -604,8 +606,6 @@ a {
 .emaildiv{
   word-spacing: 4px;
   line-height: 1.1;
-  /* background:rgb(245, 245, 244);  */
-  /* height:282px;*/
   height:320px;
   padding:2rem;
 }
@@ -717,6 +717,8 @@ textarea {
         text-align:center;
     }
 }
+
+
 /*********************************** ending of contact form *******************************/
 /* ************************************************************************************************* */
 /* ************************************************************************************************* */
@@ -961,8 +963,8 @@ blockquote.blockstyle:after {
   max-width: 50%;
   border-radius: 50%;
   margin: 0 0 30px 0; 
-   height:200px;
-  width:250px;
+   height:130px;
+  width:300px;
   background-color: #aaaaaa;
 }
 .section-title span{
@@ -978,13 +980,6 @@ blockquote.blockstyle:after {
   font-style: italic;
   display: block;
   font-size: 13px;
-}
-
-.team .member p {
-  padding-top: 10px;
-  font-size: 14px;
-  font-style: italic;
-  color: #aaaaaa;
 }
 
 .team .member .team-social-icon {
@@ -1016,3 +1011,13 @@ blockquote.blockstyle:after {
 .member .img-responsive:hover{
   border:3px solid #d97409;
 } 
+@media (max-width: 734px) {
+   .member{
+     width:100%;
+   }
+   .team .member img {
+
+     width:100%;
+     height:120px;
+   }
+}
