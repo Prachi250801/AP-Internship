@@ -1,9 +1,16 @@
-/**
-* Template Name: Green - v4.3.0
-* Template URL: https://bootstrapmade.com/green-free-one-page-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+async function clientapi(){
+  var id,clientname;
+
+  const prom = await fetch('https://nameless-savannah-87038.herokuapp.com/api/v1/Home/clienttest');
+  const data = await prom.json();
+  for (let x in data.data.clienttest ){
+     id =data.data.clienttest[x]._id;
+     clientname = data.data.clienttest[x].ClientName;
+    var photo =data.data.clienttest[x].Photo;
+    var testimonial = data.data.clienttest[x].testimonisl;   
+  }
+ }
+ clientapi();
 (function() {
   "use strict";
 
@@ -263,6 +270,7 @@
   });
 
 })()
+
 
 
 
