@@ -101,7 +101,7 @@ a {
   .scrolled-offset {
     margin-top: 70px;
   }
-  /*--------------------------------------------------------------
+     /*--------------------------------------------------------------
   # Navigation Menu
   --------------------------------------------------------------*/
   /**
@@ -271,7 +271,7 @@ a {
     bottom: 15px;
     left: 15px;
     padding: 10px 0;
-    background-color:fff;
+    background-color:#444444;
     overflow-y: auto;
     transition: 0.3s;
   }
@@ -295,9 +295,7 @@ a {
     opacity: 1;
     visibility: visible;
     background: #444444;
-    /* box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25); */
   }
-  
   .navbar-mobile .dropdown ul li {
     min-width: 200px;
   }
@@ -317,6 +315,7 @@ a {
   .navbar-mobile .dropdown > .dropdown-active {
     display: block;
   }
+ 
   /* ******************************************************************************************************* */
   /* *******************************************************HERO IMAGE******************************************* */
   /* ************************************************************************************************* */
@@ -736,8 +735,8 @@ textarea {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 2.3em 0;
- box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
-opacity: 0.9;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+  opacity: 0.9;
 }
 .ml10 {
   position: relative;
@@ -774,19 +773,16 @@ opacity: 0.9;
 /* ******************** heading******************************************************* */
      .know-us{
           background: #fff;
-          /* box-shadow: 0 2px 2px rgba(204, 197, 185, 0.5); */
      } 
     .astrodivider {
        margin:64px auto;
        width:400px; 
        max-width: 100%;
        position:relative;
-
      }
      .astrodividermask { 
          overflow:hidden; height:20px; 
      }
-     
      .astrodividermask:after { 
            content:''; 
            display:block; 

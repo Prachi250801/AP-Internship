@@ -1,308 +1,357 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>contactUs</title>
-    <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <title>Aranya Paridhi</title>
+  <!-- <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
   integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"integrity= "sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <!-- <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" rel="stylesheet"/> -->
+  <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/> -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"integrity= "sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+  <!-- <link href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css" rel="stylesheet"/> -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+  integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
 <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
-<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
 integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-<!-- Google Fonts -->
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" 
+  integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" 
+   crossorigin="anonymous"></script>
+  
+   <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+  <!-- Vendor CSS Files -->
+  <link href="vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-<!-- Vendor CSS Files -->
-<link href="vendor/animate.css/animate.min.css" rel="stylesheet">
-<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-<link href="vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-<link href="vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-<link href="vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-<link href="vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-<!--  Main CSS File -->
-<link href="style.css" rel="stylesheet">
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-<link rel="stylesheet" href="index.css">
+  <!--  Main CSS File -->
+  <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    <section id="topbar" class="d-flex align-items-center">
-      <div class="container d-flex justify-content-sm-between justify-content-md-between">
-        <div class="contact-info d-flex align-items-center">
-          <i class="bi bi-envelope-fill"></i><a href="mailto:contact@example.com">chairman.inanna@gmail.com</a>
-          <i class="bi bi-phone-fill phone-icon"></i>7008388825
-        </div>
-        <div class="social-links d-none d-md-block">
-          <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-          <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-          <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-          <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
-        </div>
-      </div>
-    </section>
-    <!-- ======= Header ======= -->
-    <header id="header" class="d-flex align-items-center">
-      <div class="container d-flex align-items-center">
-        <h1 class="logo me-auto"><a href="index.html">Aranya Paridhi</a></h1>
-        <nav id="navbar" class="navbar">
-          <ul>
-            <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-            <li><a class="nav-link scrollto" href="#about">Sponsors</a></li>
-              <li><a class="nav-link scrollto" href="ourTeam.html">Team</a></li>
-            <li><a class="nav-link scrollto " href="#portfolio">Our Products</a></li>
-            <li class="dropdown"><a href="#"><span>More</span> <i class="bi bi-chevron-down"></i></a>
-              <ul>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Our Services</a></li>
-                <li><a href="#">Employment Opportunities</a></li>
-              </ul>
-            </li>
-            <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-          </ul>
-          <i class="bi bi-list mobile-nav-toggle"></i>
-        </nav><!-- .navbar -->
-      </div>
-    </header><!-- End Header -->
-    <!-- ********************************************hero image************************************ -->
-    <div class="hero_image w-100" id="toppage">
-        <div class="hero-text">
-            <h1 class="ml13">Get In Touch</h1>
-            <h5>Want to get in touch? We'd love to hear from you.Here's How you can reach us....</h5>
-            <a href="#" target="blank" id="home-link"><button class="btn" id="home-link-btn">HOME</button></a>
-          </div>
-      </div><br><br><br><br>
-     <!--------------------------------------@end her0 IMage------------------------------------------------------>  
-     <!-------------------------------------- Starting of INFORMATION PORTION------------------------------------------------------>  
-      <div class="container second-portion">
-        	<div class="row">
-        <!-- Boxes de Acoes -->
-                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 log-xl-4">
-                <div class="box">							
-                  <div class="icon">
-                    <div class="image"><i class="fa fa-envelope" aria-hidden="true"></i></div>
-                    <div class="info">
-                      <h3 class="title mt-3">MAIL & WEBSITE</h3>
-                      <p>
-                        <i class="fa fa-envelope" aria-hidden="true"></i> &nbsp chairman.inanna@gmail.com                           
-                        <br>
-                        <i class="fa fa-globe" aria-hidden="true"></i> &nbsp www.AranyaParidhi.com  
-                      <div class="social-btn text-center justify-content-between">
-                        <a href="https://www.facebook.com/aranyaparidhi/" target="_blank" class="social-btn-links fa fa-facebook"></a>
-                        <a href="https://www.linkedin.com/company/aranya-paridhi-opc-private-limited" target="_blank" class="social-btn-links fa fa-twitter"></a>
-                        <a href="https://aranya-paridhi-opc-private-limited.business.site/" target="_blank" class="social-btn-links fa fa-linkedin"></a>
-                        <a href="#" target="_blank" class="social-btn-links fa fa-instagram"></a>
-                      </div><br><br><br>
-                    </p> 
-                    </div>
-                  </div>
-                  <div class="space"></div>
-                </div> 
-              </div>
-                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 log-xl-4">
-                  <div class="box">							
-                    <div class="icon">
-                      <div class="image"><i class="fa fa-phone" aria-hidden="true"></i></div>
-                      <div class="info">
-                        <h3 class="title mt-3">CONTACT</h3>
-                          <p>
-                            <i class="fa fa-mobile-phone" aria-hidden="true"></i> &nbsp  7008388825<br>
-                          <br>
-                          <i class="fa fa-whatsapp" aria-hidden="true"></i> &nbsp  7008388825
-                        </p>
-                      </div>
-                    </div>
-                    <div class="space"></div>
-                  </div> 
-                </div>
-                  <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 log-xl-4">
-                    <div class="box">							
-                        <div class="icon">
-                            <div class="image"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
-                              <div class="info">
-                                <h3 class="title mt-3">ADDRESS</h3>
-                                  <p>
-                                    <i class="fa fa-map-marker" aria-hidden="true"></i><span><a style="color:white;" href="https://www.google.com/maps/dir//ARANYA+PARIDHI+(OPC)+PRIVATE+LIMITED+K%2F18,+ODISHA+STATE+Housing+Board+Colony,+Chandrasekharpur+Bhubaneswar,+Odisha+751016/@20.3274149,85.8190787,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3a19092550ac8ca9:0x36758b14f4598049!2m2!1d85.8190787!2d20.3274149"><i class=" icon fa-2x fa fa-map-marker" aria-hidden="true"></i></a></span>
-                                    <span>Aranya Paridhi (OPC)Private Limited<br>
-                                      K/18, Odisha State, Housing Board Colony,<br>
-                                      Chandrasekharpur,Bhubaneswar, Odisha 751016</span>
-                                  </p>
-                              </div>
-                          </div>
-                        <div class="space"></div>
-                    </div> 
-                  </div>
-          </div>
+  <!-- ======= Top Bar ======= -->
+  <section id="topbar" class="d-flex">
+    <div class="container d-flex justify-content-md-between">
+      <div class="contact-info d-flex align-items-center"  style="margin-right:6rem;">
+        <svg xmlns="http://www.w3.org/2000/svg" style="color:#5cb874;margin-right:1rem;"  width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+          <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
+        </svg><a href="mailto:contact@example.com">chairman.inanna@gmail.com</a>
+        <svg xmlns="http://www.w3.org/2000/svg" style="color:#5cb874;margin-right:.3rem;" width="16" height="16" fill="currentColor" class="bi bi-phone-fill" viewBox="0 0 16 16">
+          <path d="M3 2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V2zm6 11a1 1 0 1 0-2 0 1 1 0 0 0 2 0z"/>
+        </svg> 7008388825
       </div> 
-    <!--------------------------------------END OF INFORMATION PORTION----------------------------------------------------->		    
-      <!-----------------------------------------------MAP-HEADLINE------------------------------------------->         
-      <div class="findUs container-fluid">
-            <div class="row">
-                <div class="find-div col-sm-12 col-lg-12">
-                        <h1 class="ml1">
-                            <span class="text-wrapper">
-                                <span class="line line1"></span>
-                                <span class="letters">How To Find Us?</span>
-                                <span class="line line2"></span>
-                            </span>
-                        </h1>
-                 </div>
-          </div>
-     </div>
-<!------------------------------------------End of Map Headline------------------------------------------------->
- <!----------------------------------------------MAP VIEW--------------------------------------------->  
- <div class="container-fluid">
-    <div class="row" id="map-view">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3741.3432488692833!2d85.81687471489296!3d20.327433886382497!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a19092550ac8ca9%3A0x36758b14f4598049!2sARANYA%20PARIDHI%20(OPC)%20PRIVATE%20LIMITED!5e0!3m2!1sen!2sin!4v1628575914372!5m2!1sen!2sin" width="800" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      <div class="social-links d-none d-md-block">
+        <a href="#" class="twitter"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+          <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+        </svg></a>
+        <a href="#" class="facebook"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+          <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+        </svg></i></a>
+        <a href="#" class="instagram"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+          <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+        </svg></a>
+        <a href="#" class="linkedin"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+          <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+        </svg></a>
+      </div>
     </div>
-  </div><br>
-  <!-- ****************************************************End of Map View*************************** -->
-  <div class="email container-fluid">
-    <div class="row">
-      <div class="emaildiv col-sm-12">
-         <h2 class="text-center" id="emailinfo">Questions or Concerns?</h2><br><br>
-         <h5 class="text-center" id="help-desk">We’re here to help and answer any question you might have.<br>
-            We look forward to hearing from you <br>🙂</h5><br>
-          <h3 class="text-center" id="company-name"><span>Aranya Paridhi</span></h3>
-          <a href= "mailto:asen53184@gmail.com ? {subject} = {subject}" ><h6 class="texting"><i class="fa fa-envelope" aria-hidden="true"></i> help@solarwildlifefence.world</h6></a> 
+  </section>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex align-items-center">
+    <div class="container d-flex align-items-center">
+      <h1 class="logo me-auto"><a href="index.html">Aranya Paridhi</a></h1>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">Sponsors</a></li>
+			<li><a class="nav-link scrollto" href="OurTeam.html">Team</a></li>
+          <li><a class="nav-link scrollto " href="#portfolio">Our Products</a></li>
+          <li class="dropdown"><a href="#"><span>More</span> <i class="fa fa-chevron-down" style="margin-left: .2rem;" aria-hidden="true"></i></a>
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Our Services</a></li>
+              <li><a href="#">Employment Opportunities</a></li>
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto" href="contactUs.html">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- navbar -->
+
+    </div>
+  </header><!-- End Header -->
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+      <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+      <div class="carousel-inner" role="listbox">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active" style="background-image: url(assets/img/slide/slide.jpg)">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 class="animate__animated animate__fadeInDown">Welcome to Real <span>Agriculture</span></h2>
+              <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+              <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item" style="background-image: url(assets/img/slide/slide.jpg)">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 class="animate__animated animate__fadeInDown">Lorem Ipsum Dolor</h2>
+              <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+              <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="carousel-item" style="background-image: url(assets/img/slide/slide.jpg)">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 class="animate__animated animate__fadeInDown">Sequi ea ut et est quaerat</h2>
+              <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+              <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+            </div>
+          </div>
+        </div>
+
       </div>
-  </div>
-  </div><br><br><br><br>
-      <!--***********************************Contact Form***********************  -->
-      <div class="container-fluid" style="background-color: #dcdedc;">
+
+      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+      </a>
+
+      <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+      </a>
+
+    </div>
+  </section><!-- End Hero -->
+
+  <!-- ======= About Us Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>About Us</h2>
+        </div>
+
         <div class="row">
-            <h1 class="text-center mt-5">Send Us a Message</h1>
+          <div class="col-lg-6 order-1 order-lg-2">
+            <img src="about.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+            <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+            <p class="fst-italic">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+              magna aliqua magna aliqua magna aliqua magna aliqua.
+            </p>
+            <p class="fst-italic">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+              magna aliqua magna aliqua magna aliqua magna aliqua.
+            </p>
+			<p class="fst-italic">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+              magna aliqua magna aliqua magna aliqua magna aliqua.
+            </p>
+            <p>
+			  <br>
+			  <a href="" class="filled-button">Read More</a>
+            </p>
+			
+          </div>
         </div>
+
+      </div>
+    </section><!-- End About Us Section -->
+
+    <!-- ======= Why Us Section ======= -->
+    <section id="why-us" class="why-us">
+      <div class="container">
+
+        <div class="row no-gutters">
+
+          <div class="col-lg-4 col-md-6 content-item">
+            <span>01</span>
+            <h4>Excellent Service</h4>
+            <p>Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</p>
+          </div>
+
+          <div class="col-lg-4 col-md-6 content-item">
+            <span>02</span>
+            <h4>Clean Working</h4>
+            <p>Dolorem est fugiat occaecati voluptate velit esse. Dicta veritatis dolor quod et vel dire leno para dest</p>
+          </div>
+
+          <div class="col-lg-4 col-md-6 content-item">
+            <span>03</span>
+            <h4> Quality And Reliability</h4>
+            <p>Molestiae officiis omnis illo asperiores. Aut doloribus vitae sunt debitis quo vel nam quis</p>
+          </div>
+
+          <div class="col-lg-4 col-md-6 content-item">
+            <span>04</span>
+            <h4>Expert Farmer</h4>
+            <p>Inventore quo sint a sint rerum. Distinctio blanditiis deserunt quod soluta quod nam mider lando casa</p>
+          </div>
+
+          <div class="col-lg-4 col-md-6 content-item">
+            <span>05</span>
+            <h4>Sapiente Magnam</h4>
+            <p>Vitae dolorem in deleniti ipsum omnis tempore voluptatem. Qui possimus est repellendus est quibusdam</p>
+          </div>
+
+          <div class="col-lg-4 col-md-6 content-item">
+            <span>06</span>
+            <h4>Facilis Impedit</h4>
+            <p>Quis eum numquam veniam ea voluptatibus voluptas. Excepturi aut nostrum repudiandae voluptatibus corporis sequi</p>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Why Us Section -->
+	<!--Testimonial section -->
+<div class="demo">
+    <div class="container">
         <div class="row">
-            <h4 style="text-align:center">We'd love to hear from you!</h4>
+            <div class="col-md-12">
+                <div id="testimonial-slider" class="owl-carousel">
+                    <div class="testimonial">
+                        <div class="pic">
+                            <img src="team-1.jpg" alt="">
+                        </div>
+                        <div class="testimonial-content">
+                            <h3 class="title">Williamson</h3>
+                            <span class="post">web developer</span>
+                            <p class="description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dolor nibh, semper at pretium vitae, tincidunt non risus. Aenean mattis sit amet ex nec venenatis. Pellentesque tempus pellentesque efficitur. Nulla commodo bibendum quam, at imperdiet orci congue non. Maecenas interdum.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="testimonial">
+                        <div class="pic">
+                            <img src="team-2.jpg" alt="">
+                        </div>
+                        <div class="testimonial-content">
+                            <h3 class="title">kristina</h3>
+                            <span class="post">Web Designer</span>
+                            <p class="description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dolor nibh, semper at pretium vitae, tincidunt non risus. Aenean mattis sit amet ex nec venenatis. Pellentesque tempus pellentesque efficitur. Nulla commodo bibendum quam, at imperdiet orci congue non. Maecenas interdum.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <form method="post">
-        <div class="row input-container">
-            <div class="col-xs-12">
-              <div class="styled-input wide">
-                <input type="text" id="name"  name="name" required />
-                <label>Name</label> 
-              </div>
-            </div>
-            <div class="col-xs-12">
-              <div class="styled-input wide">
-                <input type="text" id="city" name="city" required />
-                <label>City</label> 
-              </div>
-            </div>
-            <div class="col-md-6 col-sm-12">
-              <div class="styled-input">
-                <input type="text" id="email" name="email" required />
-                <label>Email</label> 
-              </div>
-            </div>
-            <div class="col-md-6 col-sm-12">
-              <div class="styled-input" style="float:right;">
-                <input type="text" id="number" maxlength="10" size="10" name="number" required />
-                <label>Phone Number</label> 
-              </div>
-            </div>
-            <div class="col-xs-12">
-              <div class="styled-input wide">
-                <textarea id="message" name="message" required></textarea>
-                <label>Message</label>
-              </div>
-            </div>
-            <div class="col-xs-12">
-              <input type="submit" id="form-submit" name="form-submit" class="btn-lrg submit-btn" value="Send Message">
-            </div>
-          </form>
-        </div>
-      </div> 
-      <!-- Vendor JS Files -->
-      <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-      <script src="vendor/glightbox/js/glightbox.min.js"></script>
-      <script src="vendor/isotope-layout/isotope.pkgd.min.js"></script>
-      <script src="vendor/php-email-form/validate.js"></script>
-      <script src="vendor/swiper/swiper-bundle.min.js"></script>
-      <script src="index.js"></script>
-  </body>
-     <script>
-       $(document).ready(function(){
-        $('#form-submit').click(function(e){
-          e.preventDefault();
-                      var name = $('name').val();
-                      var city = $('#city').val();     
-                      var email = $('#email').val();                             
-                      var number = $('#number').val();
-                      var message = $('#message').val();
-                      atpos = email.indexOf("@");
-                      dotpos = email.lastIndexOf(".");
-                      var regexp1=new RegExp("[^a-z|^A-Z]");
-                 if(name==""|| city=="" || email=="" || number ==""|| message==""){
-                  swal("Oops Sorry!","All Field is Mandatory!" ,"error",{
-                          button: "Cancel",
-                             });
-                      return false;
-                    } 
-                    if(regexp1.test(document.getElementById("name").value)){
-                      swal("Error","Invalid Name" ,"error",{
-                          button: "Cancel",
-                             });
-                          return false;
-                    }
-                    if(regexp1.test(document.getElementById("city").value)){
-                      swal("Error","Invalid City Name" ,"error",{
-                          button: "Cancel",
-                             });
-                          return false;
-                    }
-                    if (atpos < 1 || ( dotpos - atpos < 2 )) {
-                         swal("Error","Please enter correct email ID" ,"error",{
-                          button: "Cancel",
-                             });
-                          return false;
-                     }
-                     if (isNaN(number)){ 
-                      swal("Error","Phone number should be number" ,"error",{
-                          button: "Cancel",
-                             }); 
-                       return false;
-                      }
-                      if(regexp1.test(document.getElementById("message").value)){
-                      swal("Error","Invalid message Format" ,"error",{
-                          button: "Cancel",
-                             });
-                          return false;
-                       }
-                      axios({ 
-                  method: "post",
-                   url: "https://jsonplaceholder.typicode.com/posts",
-                    data:{
-                        name :name,
-                        city:city,
-                        email:email, 
-                         number:number,
-                         message:message
-                      }  
-                       
+    </div>
+</div>
+<!-- End Testimonial Section -->
+  <!-- ======= Footer ======= -->
+  <footer  style="background-color: #2c292f; width: 100%">
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-4 text-center text-md-left ">
                     
-                  });
+                    <div class="py-0">
+                        <h3 class="my-4 text-white">Aranya<span class="mx-2 font-italic text-warning ">Paridhi</span></h3>
+
+                        <p class="footer-links font-weight-bold">
+                            <a class="text-white" href="#">&nbsp;Home</a>
+                            |
+                            <a class="text-white" href="#">Blog</a>
+                            |
+                            <a class="text-white" href="#">About</a>
+                            |
+                            <a class="text-white" href="contactUs.html">Contact</a>
+                        </p>
+                        <p class="text-light py-4 mb-4">&copy;Copyright Aranya Paridhi.<br>All Rights Reserved.</p>
+                    </div>
+                </div>
                 
-           })
-        });
-         
-         
-   </script>
+                <div class="col-md-4 text-white text-center text-md-left ">
+                    <div class="py-2 my-4">
+                        <div>
+                            <p class="text-white"> <i class="fa fa-map-marker mx-2 "></i>
+                                    k/18, OSHB COLONY,
+                                   CHANDRASEKHAPUR, BHUBANESWAR,
+                                  ODISHA - 751016</p>
+                        </div>
+
+                        <div> 
+                            <p><i class="fa fa-phone  mx-2 "></i> +91 7008388825</p>
+                        </div>
+                        <div>
+                            <p><i class="fa fa-envelope  mx-2"></i><a href="mailto:support@eduonix.com">chairman.inanna@gmail.com</a></p>
+                        </div>  
+                    </div>  
+                </div>
+                
+                <div class="col-md-4 text-white my-4 text-center text-md-left ">
+				
+                    <span class=" font-weight-bold ">FOLLOW US</span>
+					<!--<p class="text-warning my-2" >Please follow us on our social media platform.</p>-->
+					
+                    <div class="py-2">
+					<br>
+                        <a href="#"><i class="fab fa-facebook fa-2x text-primary mx-3"></i></a>
+                        <a href="#"><i class="fab fa-instagram fa-2x text-danger mx-3"></i></a>
+                        <a href="#"><i class="fab fa-linkedin fa-2x text-info mx-3"></i></a>
+                        <a href="#"><i class="fab fa-youtube fa-2x text-danger mx-3"></i></a>
+                    </div>
+                </div>
+            </div>  
+        </div>
+     </footer>
+	<!--	End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="fa-2x fa fa-arrow-up" aria-hidden="true"></i></a>
+  <!-- Vendor JS Files -->
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="vendor/php-email-form/validate.js"></script>
+  <script src="vendor/swiper/swiper-bundle.min.js"></script>
+
+<script src="main.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+ <script type="text/javascript">
+ $(document).ready(function(){
+    $("#testimonial-slider").owlCarousel({
+        items:1,
+        itemsDesktop:[1000,1],
+        itemsDesktopSmall:[979,1],
+        itemsTablet:[768,1],
+        margin:10,
+        pagination:false,
+        navigation:true,
+        navigationText:["",""],
+        autoPlay:true
+    });
+});
+ </script>
+
+</body>
+
 </html>
